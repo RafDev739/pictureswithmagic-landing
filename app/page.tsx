@@ -1,13 +1,13 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-blue-50 flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-[#ebf5ff] via-white to-[#daedff] flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl w-full text-center space-y-8 py-12">
         {/* Main Heading */}
         <div className="space-y-4">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 tracking-tight">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#e98520] to-[#0c499c] tracking-tight">
             Pictures with Magic
           </h1>
-          <div className="h-1 w-32 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto rounded-full"></div>
+          <div className="h-1 w-32 bg-gradient-to-r from-[#e98520] to-[#0c499c] mx-auto rounded-full"></div>
         </div>
 
         {/* Tagline */}
@@ -22,7 +22,7 @@ export default function Home() {
 
         {/* Coming Soon Badge */}
         <div className="inline-block">
-          <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-full shadow-lg">
+          <div className="bg-gradient-to-r from-[#e98520] to-[#0c499c] text-white px-8 py-3 rounded-full shadow-lg">
             <p className="text-lg font-semibold">Website Under Construction</p>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function Home() {
               className="flex items-center gap-3 bg-white hover:bg-gray-50 text-gray-800 px-6 py-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 group w-full sm:w-auto justify-center"
             >
               <svg
-                className="w-6 h-6 text-purple-600 group-hover:scale-110 transition-transform"
+                className="w-6 h-6 text-[#e98520] group-hover:scale-110 transition-transform"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -67,7 +67,7 @@ export default function Home() {
               className="flex items-center gap-3 bg-white hover:bg-gray-50 text-gray-800 px-6 py-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 group w-full sm:w-auto justify-center"
             >
               <svg
-                className="w-6 h-6 text-blue-600 group-hover:scale-110 transition-transform"
+                className="w-6 h-6 text-[#0c499c] group-hover:scale-110 transition-transform"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
